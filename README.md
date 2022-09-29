@@ -43,6 +43,8 @@ git clone <code>git@github.com:Okechukwu-muokwugwo/ToDoList.git</code>
 
 Contributions, issues and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
+
 
 ## Show your support
 
