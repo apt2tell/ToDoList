@@ -24,7 +24,7 @@ Open index.html
 #### Step 1:
 - Clone this repository in your local machine terminal:
 
-git clone <code>https://github.com/Okechukwu-muokwugwo/Webpack-setup.git</code>
+git clone <code>git@github.com:Okechukwu-muokwugwo/ToDoList.git</code>
 
 #### Step 2:
 
@@ -52,4 +52,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
