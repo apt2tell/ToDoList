@@ -1,6 +1,7 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   box-sizing: border-box;
+  background: rgba(229,229,229, .2);
 }
 
 main {
@@ -11,9 +12,12 @@ main {
 .container {
   display: flex;
   flex-direction: column;
+  margin-top: 3rem;
+  padding-top: 1rem;
   box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
   border-radius: 3px;
-  width: 70%;
+  width: 40%;
+  background: #fff;
 }
 
 .title {
@@ -89,7 +93,7 @@ i {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: rgb(231, 230, 230);
+  background: rgba(229,229,229, .3);
   width: 100%;
 }
 

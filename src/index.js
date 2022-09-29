@@ -5,17 +5,17 @@ const toDos = [
   {
     task: 'Join morning session meeting',
     done: false,
-    index: 0,
+    index: 1,
   },
   {
     task: 'Join my coding partners',
     done: false,
-    index: 1,
+    index: 2,
   },
   {
     task: 'Have a lunch break',
     done: false,
-    index: 2,
+    index: 3,
   },
 ];
 
