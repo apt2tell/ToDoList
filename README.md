@@ -1,15 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books
-In this exercise I  build a simple yet powerful webpack boilerplate, which I can later use as a starting point in my projects. 
+# To-Do-List
+In this project, I build a simple HTML list of To Do tasks. The list will be styled according to the specifications. This simple web page is built using webpack and served by a webpack dev server.
 
  ## Learning objectives
 - Use webpack to bundle JavaScript.
+- Learn how to use proper ES6 syntax.
+- Use ES6 modules to write modular JavaScript.
 
 ## Built With
 
 - HTML, CSS, JavaScript
-- lodash
 - npm
 - html-webpack-plugin
 - webpack-dev-server
