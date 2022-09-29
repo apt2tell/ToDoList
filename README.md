@@ -1,15 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books
-In this exercise I  build a simple yet powerful webpack boilerplate, which I can later use as a starting point in my projects. 
+# To-Do-List
+In this project, I build a simple HTML list of To Do tasks. The list will be styled according to the specifications. This simple web page is built using webpack and served by a webpack dev server.
 
  ## Learning objectives
 - Use webpack to bundle JavaScript.
+- Learn how to use proper ES6 syntax.
+- Use ES6 modules to write modular JavaScript.
 
 ## Built With
 
 - HTML, CSS, JavaScript
-- lodash
 - npm
 - html-webpack-plugin
 - webpack-dev-server
@@ -23,7 +24,7 @@ Open index.html
 #### Step 1:
 - Clone this repository in your local machine terminal:
 
-git clone <code>https://github.com/Okechukwu-muokwugwo/Webpack-setup.git</code>
+git clone <code>git@github.com:Okechukwu-muokwugwo/ToDoList.git</code>
 
 #### Step 2:
 
@@ -42,6 +43,8 @@ git clone <code>https://github.com/Okechukwu-muokwugwo/Webpack-setup.git</code>
 
 Contributions, issues and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
+
 
 ## Show your support
 
@@ -51,4 +54,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
