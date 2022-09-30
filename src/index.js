@@ -26,7 +26,7 @@ document.addEventListener('click', (e) => {
     e.target.parentElement.classList.add('#ff0');
   }
 });
-
+// Task complete checker
 done.addEventListener('click', () => {
   const filterd = data.filter((x) => x.complete !== true);
   localStorage.setItem('data', JSON.stringify(filterd));
