@@ -2,7 +2,6 @@ import './style.css';
 import EventObj, { data, input } from './modules/addEvent.js';
 
 const press = document.querySelector('#enter');
-const done = document.querySelector('.clear-done');
 
 // Render tasks to DOM
 window.onload = EventObj.createEvent();
@@ -26,9 +25,10 @@ document.addEventListener('click', (e) => {
     e.target.parentElement.classList.add('#ff0');
   }
 });
-// Task complete checker
+// Task complete checker.
+const done = document.querySelector('.clear-done');
 done.addEventListener('click', () => {
-  const filterd = data.filter((x) => x.complete !== true);
+  const filterd = data.filter((x) => x.done !== true);
   localStorage.setItem('data', JSON.stringify(filterd));
   EventObj.createEvent();
   window.location.reload();
