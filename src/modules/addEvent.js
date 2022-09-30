@@ -3,7 +3,6 @@ const list = document.querySelector('.list');
 const ellipse = document.querySelectorAll('.fa-ellipsis-vertical');
 
 const tick = document.querySelectorAll('.tick');
-
 const data = JSON.parse(localStorage.getItem('data')) || [];
 
 // ToDoList object class
