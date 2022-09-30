@@ -7,7 +7,6 @@
     <title>ToDoList</title>
 </head>
 <body>
-    <main>
         <section class="container">
             <header>
                <div class="app-head">
@@ -15,18 +14,15 @@
                 <i class="fa-solid fa-arrows-rotate"></i>
                </div>
             </header>
-            <form  class="tasks">
-                <div class="desc">
-                    <input type="text" class="info" placeholder="Add to your list ...">
-                    <i class="fa fa-arrow-turn-up"></i>
-                </div>
+            <div  class="tasks">
+                <input type="text" class="input-event" placeholder="Add to your list ...">
+                <span><i class="fa fa-arrow-turn-up" id="enter"></i></span>
+            </div>
                 <ul class="list"></ul>
-                <div class="clear-list">
-                    <button type="button" class="clear-done">Clear All Completed</button>
-                </div>
-            </form>
+            <div class="clear-list">
+                <button type="button" class="clear-done">Clear All Completed</button>
+            </div>
         </section>
-    </main>
-   <script src="index.bundle.js"></script>
+   <script src="bundle.js"></script>
 </body>
 </html>

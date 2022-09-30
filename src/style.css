@@ -12,6 +12,8 @@ main {
 .container {
   display: flex;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 3rem;
   padding-top: 1rem;
   box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
@@ -39,14 +41,12 @@ i .app-head {
   padding-top: 0.8rem;
 }
 
-form {
+.tasks {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  align-items: center;
 }
 
-.info {
+.input-event {
   outline: none;
   border: none;
   padding: 20px 0 20px 20px;
@@ -54,6 +54,14 @@ form {
   font-style: italic;
   font-size: 0.9rem;
   color: #7a7575;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: #f00;
 }
 
 ul {
@@ -107,13 +115,14 @@ i {
   color: #7a7575;
 }
 
-.desc {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
 .tick {
   margin-right: 0.5rem;
+}
+
+.fa-trash-can {
+  display: block;
+}
+
+.move {
+  cursor: all-scroll;
 }

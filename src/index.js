@@ -1,31 +1,35 @@
 import './style.css';
+import EventObj, { data, input } from './modules/addEvent.js';
 
-const list = document.querySelector('.list');
-const toDos = [
-  {
-    task: 'Join morning session meeting',
-    done: false,
-    index: 1,
-  },
-  {
-    task: 'Join my coding partners',
-    done: false,
-    index: 2,
-  },
-  {
-    task: 'Have a lunch break',
-    done: false,
-    index: 3,
-  },
-];
+const press = document.querySelector('#enter');
+const done = document.querySelector('.clear-done');
 
-function addTask(toDos) {
-  let tasks = '';
-  toDos.forEach((item) => {
-    tasks += `<li><input type="checkbox" class="tick"><input type="text" class="list-input" value="${item.task}" disabled >
-    <i class="fa fa-ellipsis-vertical"></i></li>`;
-  });
-  list.innerHTML = tasks;
-}
+// Render tasks to DOM
+window.onload = EventObj.createEvent();
 
-addTask(toDos);
+input.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    EventObj.addList();
+    EventObj.createEvent();
+    input.value = '';
+  }
+});
+
+press.addEventListener('click', () => {
+  EventObj.addList();
+  EventObj.createEvent();
+  input.value = '';
+});
+
+document.addEventListener('click', (e) => {
+  if (e.target.classList.contains('to-do')) {
+    e.target.parentElement.classList.add('#ff0');
+  }
+});
+
+done.addEventListener('click', () => {
+  const filterd = data.filter((x) => x.complete !== true);
+  localStorage.setItem('data', JSON.stringify(filterd));
+  EventObj.createEvent();
+  window.location.reload();
+});
