@@ -15,6 +15,9 @@ In this project, I implemented the CRUD (create, read, update, delete) methods. 
 - html-webpack-plugin
 - webpack-dev-server
 
+## live Demo
+
+> Check out the [Live Demo](https://okechukwu-muokwugwo.github.io/ToDoList/dist/)
 
 ## Getting Started
 Open index.html
