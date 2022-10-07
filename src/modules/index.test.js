@@ -16,4 +16,12 @@ describe('implementation of addList and delList testing', () => {
     const list = document.querySelectorAll('#list li');
     expect(list).toHaveLength(1);
   });
+  test('Delete one new item to the list', () => {
+    document.body.innerHTML = '<div>'
+        + '  <ul id="list"></ul>'
+        + '</div>';
+    jest.fn();
+    const list = document.querySelectorAll('#list li');
+    expect(list).toHaveLength(0);
+  });
 });
