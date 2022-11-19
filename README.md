@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # To-Do-List
-In this project, I implemented the CRUD (create, read, update, delete) methods. This is a simple HTML To Do tasks. I added some functionality to make it interactive. The user will also be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list is stored in local storage.
+In this project, I implemented the CRUD (create, read, update, delete) methods. This Todo app allows users to add, edit, delete and mark tasks completed by selecting the corresponding checkbox. The updated tasks list is stored in local storage.
 
 ![](https://github.com/Okechukwu-muokwugwo/ToDoList/blob/main/screenshot.PNG)
 
